@@ -10,28 +10,28 @@ of Mulesoft connectors and custom code / connector implementation. The repositor
 have a reference for engineers of any level.
 
 - ## DataWeave
-     - [aggregate-values-for-loop](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/DataWeave/aggregate-values-for-loop) 
-     - [remove-array-from-array](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/DataWeave/remove-array-from-array)
+     - [aggregate-values-for-loop](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/DataWeave/aggregate-values-for-loop) 
+     - [remove-array-from-array](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/DataWeave/remove-array-from-array)
 
 - ## Salesforce
-    - [bulk-api-v2-insert-update](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/bulk-api-v2-insert-update) 
-    - [bulk-v1-query](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/bulk-v1-query) 
-    - [consume-apex-rest-service](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/consume-apex-rest-service) 
-    -  [content-document-attachment](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/content-document-attachment) 
-    - [get-updates-retrieve ](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/get-updates-retrieve) 
-    -  [platform-events](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/platform-events) 
-    - [soql-query-offset-limit ](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/soql-query-offset-limit) 
-    -  [sosl-search](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/sosl-search) 
-    - [upadate-custom-metadta-type ](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/Salesforce/upadate-custom-metadta-type) 
+    - [bulk-api-v2-insert-update](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/bulk-api-v2-insert-update) 
+    - [bulk-v1-query](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/bulk-v1-query) 
+    - [consume-apex-rest-service](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/consume-apex-rest-service) 
+    -  [content-document-attachment](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/content-document-attachment) 
+    - [get-updates-retrieve ](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/get-updates-retrieve) 
+    -  [platform-events](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/platform-events) 
+    - [soql-query-offset-limit ](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/soql-query-offset-limit) 
+    -  [sosl-search](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/sosl-search) 
+    - [upadate-custom-metadta-type ](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/Salesforce/upadate-custom-metadta-type) 
 - ## General
-    -  [dynamicMapping](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/general/dynamicMapping) 
-    -  [idempotent-filter](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/general/idempotent-filter) 
-    -  [parseEmailTemplate](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/general/parseEmailTemplate) 
-    -  [recursive-flow-pagination](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/general/recursive-flow-pagination) 
-    -  [render-html-page](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/general/render-html-page) 
-    -  [uncompress-and-transform](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/general/uncompress-and-transform) 
+    -  [dynamicMapping](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/general/dynamicMapping) 
+    -  [idempotent-filter](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/general/idempotent-filter) 
+    -  [parseEmailTemplate](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/general/parseEmailTemplate) 
+    -  [recursive-flow-pagination](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/general/recursive-flow-pagination) 
+    -  [render-html-page](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/general/render-html-page) 
+    -  [uncompress-and-transform](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/general/uncompress-and-transform) 
 - ## Google
-    - [googleSheets ](https://github.com/emoran/mulesoft-recipes/tree/master/src/main/mule/google/googleSheets) 
+    - [googleSheets ](https://github.com/sankaranarayanan/mulesoft-recipes/tree/master/src/main/mule/google/googleSheets) 
 
 
 
@@ -39,7 +39,7 @@ have a reference for engineers of any level.
 
 Clone the repository
 ```bash
-  git clone https://github.com/emoran/mulesoft-recipes.git
+  git clone https://github.com/sankaranarayanan/mulesoft-recipes.git
   cd mulesoft-recipes
   mvn clean install -U
 ```
@@ -67,9 +67,3 @@ sfdc.token
 sfdc.username
 ```
 ![Screen Shot 2022-10-14 at 2 59 05 PM](https://user-images.githubusercontent.com/1028534/195921125-166ea490-a6bf-4784-87a9-517f0003b3cb.png)
-
-
-## Contributing
-
-Contributions are always welcome!
-
